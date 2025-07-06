@@ -2,9 +2,9 @@ import React, {useContext, createContext} from "react";
 
 const WindowSizeContext = createContext();
 
-// export function useWindowSize() {
-//   return useContext(WindowSizeContext)
-// }
+export function useWindowSize() {
+  return useContext(WindowSizeContext)
+}
 
 export default function WindowSizeProvider({ children }) {
   const windowHeight = window.innerHeight;

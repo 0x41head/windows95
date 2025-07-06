@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Button, Cursor, List, TaskBar } from '@react95/core';
-import { ReaderClosed, WindowsExplorer } from '@react95/icons';
+// import { Button, Cursor, List, TaskBar } from '@react95/core';
+// import { ReaderClosed, WindowsExplorer } from '@react95/icons';
 import '@react95/core/GlobalStyle';
 import '@react95/core/themes/win95.css';
 import WindowSizeProvider from './components/WindowSizeContext';
@@ -23,7 +23,7 @@ function App() {
   };
 
   const handleOpenWindow = (windowName) => toggleWindow(windowName, true);
-  
+
   return (
     <>
     <WindowSizeProvider>
